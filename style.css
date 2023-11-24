@@ -91,3 +91,50 @@ body {
     background-color: gray;
     padding: 130px;
 }
+
+.third-container {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 75px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.third-container .first-part {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.third-container .second-part {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    
+
+}
+
+.third-container .box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    gap: 10px;
+    
+}
+
+.box-container .box {
+    border: 4px solid #3882F6;
+    width: 200px; 
+    height: 200px; 
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.box-container .subtext {
+    color: rgb(77, 74, 74);
+    font-size: 18px;
+    padding-left: 7px;
+}
