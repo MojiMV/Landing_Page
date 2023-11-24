@@ -99,7 +99,7 @@ body {
     align-items: center;
     gap: 75px;
     padding-top: 75px;
-    padding-bottom: 75px;
+    padding-bottom: 90px;
 }
 
 .third-container .first-part {
@@ -137,4 +137,29 @@ body {
     color: rgb(77, 74, 74);
     font-size: 18px;
     padding-left: 7px;
+}
+
+.forth-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.forth-container .first-part {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    align-self: center;
+    max-width: 700px;
+}
+
+.forth-container .second-part {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: 500px;
 }
