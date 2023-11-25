@@ -58,6 +58,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .sec-container .first-part {
@@ -162,4 +163,42 @@ body {
     font-weight: 900;
     margin-left: auto;
     margin-right: 500px;
+}
+
+.fifth-container {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px 100px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.fifth-container .first-part div {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.fifth-container .first-part p {
+    font-size: 18px;
+    margin-top: 0%;
+    color: #F9FAF8;
+    font-weight: lighter;
+}
+
+.fifth-container .second-part button {
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    outline: none;
+    padding: 10px 20px;
+    font-weight: 900;
+    border-radius: 10px;
 }
