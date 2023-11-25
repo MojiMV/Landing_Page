@@ -82,7 +82,7 @@ body {
     color: white;
     border: none;
     outline: none;
-    padding: 10px;
+    padding: 10px 20px;
     font-weight: bold;
     border-radius: 5px;
 }
@@ -201,4 +201,14 @@ body {
     padding: 10px 20px;
     font-weight: 900;
     border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #F9FAF8;
 }
